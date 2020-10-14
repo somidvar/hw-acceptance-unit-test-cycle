@@ -1,0 +1,10 @@
+.......{"director"=>"sample1"}
+3
+...
+
+2 deprecation warnings total
+
+Finished in 0.11673 seconds (files took 1.65 seconds to load)
+10 examples, 0 failures
+
+Coverage report generated for Cucumber Features, RSpec to /home/ubuntu/environment/hw-acceptance-unit-test-cycle/rottenpotatoes/coverage. 59 / 63 LOC (93.65%) covered.
