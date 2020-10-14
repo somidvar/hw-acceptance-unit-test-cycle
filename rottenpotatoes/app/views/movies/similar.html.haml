@@ -1,0 +1,17 @@
+%h2 Movies similar to #{@m.title} for based on #{@based_on}: #{@m[@based_on]}
+%table#movies 
+  %thead
+    %tr
+      %th Movie Title
+      %th Rating
+      %th Director
+      %th Release Date
+      %th More Info
+  %tbody
+    - @movies.each do |movie|
+      %tr
+        %td= movie.title
+        %td= movie.rating
+        %td= movie.director
+        %td= movie.release_date
+        %td= link_to "More about #{movie.title}", movie_path(movie) 
